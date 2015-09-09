@@ -4,7 +4,7 @@ defmodule PnxTicketee.Mixfile do
   def project do
     [ app: :pnx_ticketee,
       version: "0.0.1",
-      elixir: "~> 1.0.0",
+      elixir: "~> 1.0.5",
       elixirc_paths: ["lib", "web"],
       deps: deps ]
   end
@@ -24,10 +24,10 @@ defmodule PnxTicketee.Mixfile do
   # { :barbat, "~> 0.1", github: "elixir-lang/barbat" }
   defp deps do
     [
-      {:phoenix, "0.4.1"},
-      {:cowboy, "~> 1.0.0"},
+      {:phoenix, "1.0.1"},
+      {:cowboy, "~> 1.0.2"},
       {:postgrex, "~> 0.6.0"},
-      {:ecto, "~> 0.2.5"}
+      {:ecto, "~> 0.2.8"}
     ]
   end
 end
